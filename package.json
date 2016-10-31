@@ -1,0 +1,46 @@
+{
+  "name": "@homeaway/js_testing",
+  "version": "1.0.0",
+  "description": "Learning JavaScript Book",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.wvrgroup.internal:AAlsberge/jsTesting.git"
+  },
+  "keywords": [
+    "learning"
+  ],
+  "author": "Andrew Alsberge",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.14.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.12.0",
+    "babel-plugin-transform-undefined-to-void": "^6.8.0",
+    "babel-plugin-undeclared-variables-check": "^6.8.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-es2015-script": "^1.1.0",
+    "babel-preset-es2015-webpack": "^6.4.3",
+    "eslint": "^3.6.1",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^3.0.1",
+    "jasmine": "^2.5.2",
+    "load-grunt-tasks": "^3.5.2",
+    "mocha": "^3.1.2",
+    "node": "0.0.0",
+    "throw": "^1.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.homeawaycorp.com/artifactory/api/npm/npm-local"
+  }
+}

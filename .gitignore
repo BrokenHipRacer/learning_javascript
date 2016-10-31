@@ -13,3 +13,6 @@ node_modules
 
 # possible bak files
 *.bak
+
+/dist/*
+/public/dist/*
